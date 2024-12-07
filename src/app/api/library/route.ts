@@ -1,6 +1,6 @@
 import { auth } from "@clerk/nextjs";
 import { NextResponse } from "next/server";
-import { db } from "@/lib/db";
+import { prismadb } from "@/lib/prismadb";
 
 export async function GET(req: Request) {
   try {
@@ -24,7 +24,7 @@ export async function GET(req: Request) {
       };
     }
 
-    const content = await db.content.findMany({
+    const content = await prismadb.content.findMany({
       where: query,
       orderBy: {
         createdAt: "desc",
