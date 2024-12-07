@@ -1,6 +1,6 @@
 "use client";
 
-import ChatStudio from "./components/chat-studio";
+import { ChatStudio } from "./components/chat-studio";
 import { CreditDisplay } from "@/components/shared/credit-display";
 
 export const metadata = {

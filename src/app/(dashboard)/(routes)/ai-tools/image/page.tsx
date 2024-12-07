@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import ImageGenerator from "./components/image-generator";
+import ImageStudio from "./components/image-studio";
 import { CreditDisplay } from "@/components/shared/credit-display";
 
 export const metadata: Metadata = {
@@ -23,7 +23,7 @@ export default function ImagePage() {
               <CreditDisplay />
             </div>
           </div>
-          <ImageGenerator />
+          <ImageStudio />
         </div>
       </div>
     </div>

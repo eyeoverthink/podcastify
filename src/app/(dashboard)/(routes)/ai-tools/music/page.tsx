@@ -1,7 +1,7 @@
 "use client";
 
 import { Music } from "lucide-react";
-import { MusicStudio } from "./components/music-studio";
+import MusicStudio from "./components/music-studio";
 import MusicGenerator from "./components/music-generator";
 import { CreditDisplay } from "@/components/shared/credit-display";
 
@@ -26,7 +26,7 @@ export default function MusicPage() {
               <CreditDisplay />
             </div>
           </div>
-          <MusicGenerator />
+          <MusicStudio />
         </div>
       </div>
     </div>
