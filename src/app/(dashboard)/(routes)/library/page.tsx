@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from "react";
-import { ImageIcon, Music, Mic, FileText, Tabs, TabsList, TabsTrigger, TabsContent } from "lucide-react";
+import { ImageIcon, Music, Mic, FileText } from "lucide-react";
 import Image from "next/image";
 import { useUser } from "@clerk/nextjs";
 import { CreditDisplay } from "@/components/shared/credit-display";
