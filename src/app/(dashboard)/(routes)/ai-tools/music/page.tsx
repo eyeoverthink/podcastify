@@ -1,8 +1,6 @@
 "use client";
 
-import { Music } from "lucide-react";
-import MusicStudio from "./components/music-studio";
-import MusicGenerator from "./components/music-generator";
+import { MusicStudio } from "./components/music-studio";
 import { CreditDisplay } from "@/components/shared/credit-display";
 
 export const metadata = {
