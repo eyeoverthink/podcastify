@@ -1,16 +1,14 @@
 "use client";
 
-import { Music } from "lucide-react";
-import { MusicStudio } from "./components/music-studio";
-import MusicGenerator from "./components/music-generator";
+import ChatStudio from "./components/chat-studio";
 import { CreditDisplay } from "@/components/shared/credit-display";
 
 export const metadata = {
-  title: "AI Music Generation - CreativeAI Studio",
-  description: "Create amazing music with AI",
+  title: "AI Chat - CreativeAI Studio",
+  description: "Chat with our advanced AI assistant",
 };
 
-export default function MusicPage() {
+export default function ChatPage() {
   return (
     <div className="h-full bg-gray-900 text-white">
       <div className="h-full">
@@ -18,15 +16,15 @@ export default function MusicPage() {
           <div className="mb-8 space-y-4">
             <div className="flex items-center justify-between">
               <div>
-                <h1 className="text-4xl font-bold">AI Music Generation</h1>
+                <h1 className="text-4xl font-bold">AI Chat</h1>
                 <p className="text-gray-400 text-lg">
-                  Create amazing music with AI
+                  Chat with our advanced AI assistant
                 </p>
               </div>
               <CreditDisplay />
             </div>
           </div>
-          <MusicGenerator />
+          <ChatStudio />
         </div>
       </div>
     </div>
